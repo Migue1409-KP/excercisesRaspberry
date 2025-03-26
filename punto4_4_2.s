@@ -1,13 +1,10 @@
-        // Sección de datos
-        .section .data
-        .align 4
+// Sección de datos
+.section .data
+.align 4
 
 // Cadena de ruta a /dev/mem terminada en \0
 path:
         .ascii "/dev/mem\0"
-
-mensaje: 
-        .asciz "Hola, Raspberry Pi!\n"
 
 // Sección .text con el código
         .section .text
